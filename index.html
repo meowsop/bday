@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>I'm sorry</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+
+
+  <h2>Another day another slay happy bday bitch</h2>
+  <p>This is ugly on purpose i swear</p>
+  <section class="galeria">
+    <img class='foto' src="genshin-impact-genshin-impact-zhongli.gif" />
+    <img class='foto' src="zhongli-good-morning.gif" />
+    <img class='foto' src="tumblr_3862ad06dd2b18a715bd17bc8e6eeeef_7ca1d5de_1280.gif" />
+    <img class='foto' src="zhongli-genshin-impact.gif" />
+    <img class='foto' src="happy-birthday-yoimiya.gif" />
+    <img class='foto' src="picmix.com_10730034.gif" />
+  </section>
+
+
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Birthday</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris')">8 Months</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Paula</button>
+  </div>
+
+  <div id="London" class="tabcontent">
+    <h3>Birthday</h3>
+    <p>First of all, I want to say you Happy Birthday! I'm sorry that you're not having a good time, but I swear everything is going to be alright, you just need to be patient! I'm so proud of you because omg, you went so far! Look at you, your're such a beautiful woman, man, enby, person (?).</p>
+    <p>Btw, I'm sorry that yesterday was a bad day, but I promise I'm here to make things better! I'll do anything I can to make you smile, even if it's just a bit...</p>
+    <p>I wish I could give you a better gift, idk, one I could spend money with... But unfortunately everything is expensive to me (I have R$2,57 on my account YGFDUSGYFSGDU) so I decided to do an ugly ass website, so you can laugh a bit and smile.</p>
+    <p>That's it! Happy Birthday baby!!</p>
+  </div>
+
+  <div id="Paris" class="tabcontent">
+    <h3>8 Months</h3>
+    <p>OMG 8 MONTHS!!!!!! How can time pass so fast like fr!! I'm so glad we met that day on the server... Like, omg I didn't mean so bad to join the applications because I thought you wouldn't pick me. Idk, something said I should do it! And I did, it was the best decision of my entire life.</p>
+    <p>I'd like to thank you for everything you do for me. You're always there, on the happy and bad moments, I literally can't thank you enough. I'm sorry for being kinda distant, I'm trying my best to ne the person you deserve, but this moment on my life is definitely something... Thank you for understanding, I know this is hard...</p>
+    <p>Btw, I love you!! I hope we can have a lot of fun today!!</p>
+  </div>
+
+  <div id="Tokyo" class="tabcontent">
+    <h3>Paula</h3>
+    <p>Idk I needed three spaces to finish the website so I'm writing this with my ass because I have no idea to what to put here fr.</p>
+    <p>Osmanthus wine taste the same as I remember... But where are those who share the memory...</p>
+    <p>Click here <a href="https://www.youtube.com/watch?v=XAWFs2-K0p4">Osmanthus Wine</a></p>
+  </div>
+
+<br>
+
+
+
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+  </script>
+
+</body>
+
+</html>
